@@ -1,5 +1,5 @@
 # Ex.07 Software Product Company Website
-## Date:
+## Date:10/05/24
 
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
@@ -376,6 +376,9 @@ transition: 0.5s;
 </html>
 ```
 ## PRODUCT.HTML:
+
+
+```
 <html>
     <head>
       <title>services</title>
@@ -471,7 +474,6 @@ transition: 0.5s;
       padding: 30px;
       margin-right: 20%;
   }
-  
       </style>
     </head>
   <body>
@@ -484,7 +486,6 @@ transition: 0.5s;
               <li><a href="contact.html">CONTACT</a></li>
           </ul>
       </div>
-      
       <div class="search" >
           <input class="srch" type="search" name="" placeholder="type to search">
           <a href="#"><button class="btn">Search</button></a>
@@ -498,11 +499,14 @@ transition: 0.5s;
     <footer>
       <p>Designed And Developed By: pavitra p &copy;2023</p>
   </footer>
-  
   </body>
   </html>
   ```
+
+        
   ### CONTACTUS.HTML:
+
+  
   ```
   <!DOCTYPE html>
 <html lang="en">
@@ -514,7 +518,6 @@ transition: 0.5s;
             body{
       background: linear-gradient(rgb(0, 0, 0) , rgb(31, 5, 110) );
     }
-    
 ul{
     float: right;
     list-style-type: none;
@@ -535,7 +538,6 @@ ul li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 }
-
 ul li a:hover{
     background-color: black;
     color: #fff;
@@ -570,25 +572,20 @@ ul li a:hover{
     color:black;
     font-size: 15px;
     border-bottom-right-radius: 5px;
-    
 }
 .btn:focus{
     outline: none;
 }
 .srch:focus{
     outline: none;
-
 }
-      
         footer{
-
         background-color:black;
         height:30px;
         bottom:0;
         width:100%;
         color:white;
-        position:absolute;
-        
+        position:absolute;   
         }
         header
         {
@@ -713,6 +710,8 @@ ul li a:hover{
 
 
 ##  CONTACT.HTML:
+
+
 ```
 <!DOCTYPE html>
 <html lang="en">
